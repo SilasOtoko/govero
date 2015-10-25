@@ -1,0 +1,209 @@
+
+/* universal */
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+
+html{
+	/*background-color: #748675;*/
+}
+
+h1{
+	margin: 0;
+}
+
+p{
+	font-size: 1.25em;
+	line-height: 1.4em;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #91A792;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* header */
+
+header{
+	display: block;
+	width: 60%;
+	margin: 40px auto 0;
+	background-color: #91A792;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#logo{
+	display: inline-block;
+	width: 40%;
+	min-width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+header h1{
+	color: white;
+	font-size: 2em;
+	font-family: 'Alegreya', serif;
+}
+
+/* nav */
+
+nav{
+	display: inline-block;
+	width: 15%;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	background: url("parchment2.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	text-align: center;
+	padding: 20px 10px;
+	margin: 20px;
+	box-shadow: 10px 10px 20px #888888;
+	min-width: 100px;
+	max-width: 150px;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.sub-menu{
+	display: none;
+}
+
+/* section */
+
+section{
+	margin-top: 0;
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+.content-wrapper{
+	display: inline-block;
+	padding-top: 5%;
+	vertical-align: top;
+	margin: 0 auto;
+}
+
+.content{
+	margin: 0 auto;
+	width: 80%;
+}
+
+/* Contact Page */
+
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #91A792;
+}
+
+.address p{
+	font-size: 1em;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a{
+  background-image: url('../img/facebook.png');
+}
+
+/* products */
+
+.products{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.products ul{
+	padding: 0;
+	margin: 0;
+}
+
+.products li{
+	float: left;
+	list-style: none;
+	display: inline-block;
+	color: black;
+	width: 25%;
+	font-size: 2em;
+	margin: 2.5%;
+}
+
+.products a{
+	color: black;
+}
+
+.products a:hover{
+	color: #91A792;
+}
+
+.products img{
+	width: 100%;
+}
+
+/******************
+	Soaps
+******************/
+
+#soaps-body{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-color: #91A792;
+}
+
+.soap-img{
+	display: inline-block;
+	width: 40%;
+	margin: 5%;
+}
+
+.soap-img img{
+	width: 100%;
+}

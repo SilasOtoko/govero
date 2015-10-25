@@ -1,0 +1,77 @@
+
+
+@media screen and (max-width: 759px){
+	html{
+		background-color: white;
+	}
+
+	body{
+		width: 100%;
+	}
+
+	header h1{
+		font-size: 1.25em;
+	}
+	
+	nav{
+		display: block;
+		background-color: #748675;
+		padding: 10px 0;
+		width: 100%;
+		margin-left: 0px;
+	}
+	
+	nav ul{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	nav ul li{
+		background-image: none;
+		display: inline;
+		margin: 0;
+		box-shadow: none;
+		color: white;
+	}
+	
+	nav a{
+		font-size: 1em;
+		padding: 0;
+		margin: 10px 0;
+		color: white;
+	}
+	
+	.content-wrapper{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (min-width: 760px){
+ 
+/*******************
+TWO COLUMN LAYOUT
+*******************/
+
+
+#primary{
+    width: 50%;
+    float: left;
+  }
+
+#secondary{
+    width: 40%;
+    float: right;
+  }
+
+  header h1{
+  	font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 1000px){
+	header h1{
+		font-size: 2em;
+	}	
+}
